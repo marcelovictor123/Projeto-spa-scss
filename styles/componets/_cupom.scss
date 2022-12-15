@@ -38,4 +38,26 @@
         }
 
     }
+
+    button {
+        text-transform: uppercase;
+        margin-top: .75rem;
+        outline: none;
+        height: 40px;
+        text-align: center;
+        width: 130px;
+        background-color: $cor-primeria;
+        color: $cor-terciaria;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px $cor-primeria;
+        border-radius: 40px;
+
+        &:hover {
+            color: $cor-primeria;
+            background-color: $cor-secundaria;
+        }
+    }
 }
